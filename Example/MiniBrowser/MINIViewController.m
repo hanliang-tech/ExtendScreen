@@ -7,7 +7,7 @@
 //
 
 #import "MINIViewController.h"
-#import <MiniBrowser/MiniBrowser.h>
+#import <ExtendScreen/MiniBrowser.h>
 
 @interface MINIViewController () <MiniClientManagerDelegate>
 
