@@ -1,4 +1,4 @@
-# MiniBrowser
+# ExtendScreen
 
 ## 安装
 
