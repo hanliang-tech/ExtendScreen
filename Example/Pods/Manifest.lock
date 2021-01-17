@@ -1,0 +1,16 @@
+PODS:
+  - ExtendScreen (0.1.0)
+
+DEPENDENCIES:
+  - ExtendScreen (from `../`)
+
+EXTERNAL SOURCES:
+  ExtendScreen:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ExtendScreen: d122d0f638a7a26f2eb970c7101c755a9ec90392
+
+PODFILE CHECKSUM: 21ea86fcf4f884c74563c1061650ebd91cfeab3e
+
+COCOAPODS: 1.10.0

@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'MiniBrowser_Example' do
+  pod 'ExtendScreen', :path => '../'
+
+  target 'MiniBrowser_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
