@@ -35,7 +35,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (instancetype)init NS_UNAVAILABLE; // Force deny initialization
 + (instancetype)new NS_UNAVAILABLE;
 
--(void) startWithAppId: (NSString *)appId;
+-(void) startWithAppId: (NSString *)appId channel: (NSString*) channel;
 
 /// 设置用户的 IEMI
 /// @param IEMI IEMI
@@ -44,6 +44,10 @@ NS_ASSUME_NONNULL_BEGIN
 /// 设置当前用户的 OAID
 /// @param OAID OAID
 - (void)setOAID:(NSString *)OAID;
+
+/// 设置 App Channel
+/// @param SDKChannel SDK Channel
+- (void)setSDKChannel:(NSString *)SDKChannel;
 
 -(void) search;
 -(void) stopSearch;

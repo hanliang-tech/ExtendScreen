@@ -18,7 +18,7 @@ pod 'ExtendScreen'
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // App 启动时初始化 SDK
-    [[MiniClientManager shared] startWithAppId:@"AppId"];
+    [[MiniClientManager shared] startWithAppId:@"AppId" channel: @"browser"];
     return YES;
 }
 
@@ -68,6 +68,10 @@ pod 'ExtendScreen'
 ```objc
 // 创建一个 action
 MiniAction *action = [[MiniAction alloc] init];
+// 自定义 Action 名字
+action.name = @"Custom Action";
+action.esId = @"123564q4";
+action.esPkg = @"com.baidu.xxx";
 // 设置 action 的 params，params 需要是一个可以转换为 json 的基础数据类型
 action.params = @{
     @"key": @"value"

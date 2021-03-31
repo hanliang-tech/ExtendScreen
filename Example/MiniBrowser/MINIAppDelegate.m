@@ -15,7 +15,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
-    [[MiniClientManager shared] startWithAppId:@"AppId"];
+    [[MiniClientManager shared] startWithAppId:@"AppId" channel: @"browser"];
     return YES;
 }
 

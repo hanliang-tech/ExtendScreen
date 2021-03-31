@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/MiniAction.h</key>
 		<data>
-		Cab5S7OsWQj7+qdIPpu5i3T9WqI=
+		JEdbBVyoHXmCHn65yfYYvmZWzRw=
 		</data>
 		<key>Headers/MiniBrowser.h</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>Headers/MiniClientManager.h</key>
 		<data>
-		I7W655Yb5c82dBy1NXIUMcbtoiQ=
+		Y1aBNDvRtjjBiP/z6z00bPC1rcA=
 		</data>
 		<key>Headers/MiniRemoteDevice.h</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		8xlJEorpQlZySpQFX0W0oBLFKp4=
+		oe/AS45GD2a3HDIVotnzpo7nxqw=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -31,11 +31,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Cab5S7OsWQj7+qdIPpu5i3T9WqI=
+			JEdbBVyoHXmCHn65yfYYvmZWzRw=
 			</data>
 			<key>hash2</key>
 			<data>
-			0CXrSaidLcimU1JVgLccJj4KbUhF0/lEAxOCETwPpyU=
+			fFg/vEQLPeMbstHO82zMWYW2m+Tb0eCcSr/i0qYa9HQ=
 			</data>
 		</dict>
 		<key>Headers/MiniBrowser.h</key>
@@ -53,11 +53,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			I7W655Yb5c82dBy1NXIUMcbtoiQ=
+			Y1aBNDvRtjjBiP/z6z00bPC1rcA=
 			</data>
 			<key>hash2</key>
 			<data>
-			cj5u/pc6+AKXfkNIcYvE8+hhM7RVnI8RhLWcNFAs2hQ=
+			ZSRZV5/Pwg4vtFWBX3iVbAJsx2uECiv/KGyN8fIga7s=
 			</data>
 		</dict>
 		<key>Headers/MiniRemoteDevice.h</key>

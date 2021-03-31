@@ -28,6 +28,9 @@
 /// 设备更新接口
 - (void)OnDeviceUpdate: (MiniRemoteDevice*) device {
     MiniAction *action = [[MiniAction alloc] init];
+    action.name = @"Custom Action";
+    action.esId = @"123564q4";
+    action.esPkg = @"com.baidu.xxx";
     action.params = @{
         @"key": @"value"
     };

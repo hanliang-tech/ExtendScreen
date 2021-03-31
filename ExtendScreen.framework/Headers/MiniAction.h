@@ -16,7 +16,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, copy) NSString *name;
 @property (nonatomic, strong) id params;
-@property (nonatomic, copy) NSDictionary *exp;
+@property (nonatomic, copy) NSMutableDictionary *exp;
+@property (nonatomic, copy) NSString *esId;
+@property (nonatomic, copy) NSString *esPkg;
 //
 //
 //- (NSString *)getJosnStr;
