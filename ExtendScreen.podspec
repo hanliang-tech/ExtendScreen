@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ExtendScreen'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'A short description of ExtendScreen.'
 
   s.description      = <<-DESC
@@ -23,8 +23,6 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
 
-  s.vendored_frameworks = 'ExtendScreen.framework'
-  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-
+  s.vendored_frameworks = 'ExtendScreen.xcframework'
+  s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
 end
