@@ -327,7 +327,7 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-MiniBrowser_Example/Pods-MiniBrowser_Example-frameworks.sh",
-				"${PODS_ROOT}/../../ExtendScreen.framework",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ExtendScreen/ExtendScreen.framework/ExtendScreen",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
