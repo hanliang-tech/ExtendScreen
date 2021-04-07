@@ -1,5 +1,5 @@
 PODS:
-  - ExtendScreen (1.0.1)
+  - ExtendScreen (1.0.2)
 
 DEPENDENCIES:
   - ExtendScreen (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ExtendScreen: 0989259af547880a0af935ba9704c42af972e64b
+  ExtendScreen: e84ef1e7c8bd031acb6aabbc909a5e8b8cca19b7
 
 PODFILE CHECKSUM: 21ea86fcf4f884c74563c1061650ebd91cfeab3e
 
