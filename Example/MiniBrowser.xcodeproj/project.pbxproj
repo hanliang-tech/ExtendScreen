@@ -248,7 +248,7 @@
 				ORGANIZATIONNAME = BrikerMan;
 				TargetAttributes = {
 					6003F589195388D20070C39A = {
-						DevelopmentTeam = KR3CGLD767;
+						DevelopmentTeam = FKL989BSCV;
 					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
@@ -327,7 +327,7 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-MiniBrowser_Example/Pods-MiniBrowser_Example-frameworks.sh",
-				"${PODS_ROOT}/../../ExtendScreen.framework",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ExtendScreen/ExtendScreen.framework/ExtendScreen",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -501,7 +501,7 @@
 			baseConfigurationReference = F328D0EF689CA89B80241E68 /* Pods-MiniBrowser_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = KR3CGLD767;
+				DEVELOPMENT_TEAM = FKL989BSCV;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MiniBrowser/MiniBrowser-Prefix.pch";
 				INFOPLIST_FILE = "MiniBrowser/MiniBrowser-Info.plist";
@@ -518,7 +518,7 @@
 			baseConfigurationReference = 2A64D3770AB09B138B79E169 /* Pods-MiniBrowser_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = KR3CGLD767;
+				DEVELOPMENT_TEAM = FKL989BSCV;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MiniBrowser/MiniBrowser-Prefix.pch";
 				INFOPLIST_FILE = "MiniBrowser/MiniBrowser-Info.plist";

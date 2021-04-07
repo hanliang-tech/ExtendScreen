@@ -9,8 +9,9 @@
 /* Begin PBXAggregateTarget section */
 		091F6EB16EEEAC70F354525C348C6C78 /* ExtendScreen */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 2A4A53EBF8B09209526395423F447FC1 /* Build configuration list for PBXAggregateTarget "ExtendScreen" */;
+			buildConfigurationList = 3E8DD1C41E6F04508498646394A5ED83 /* Build configuration list for PBXAggregateTarget "ExtendScreen" */;
 			buildPhases = (
+				AC31D9AD5EDD8C717C453E994D71EB43 /* [CP] Copy XCFrameworks */,
 			);
 			dependencies = (
 			);
@@ -35,7 +36,7 @@
 			remoteGlobalIDString = 091F6EB16EEEAC70F354525C348C6C78;
 			remoteInfo = ExtendScreen;
 		};
-		BF2B680CF35D67333ED0506FCFE55757 /* PBXContainerItemProxy */ = {
+		C2EFCBF501694B4A9F6531D7B9555E79 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -46,32 +47,33 @@
 
 /* Begin PBXFileReference section */
 		13F6E46282053231A6133A70A2AF11E2 /* Pods-MiniBrowser_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MiniBrowser_Example-umbrella.h"; sourceTree = "<group>"; };
+		170E3F21555CC6F3FCA63438BF3A1F0C /* ExtendScreen.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ExtendScreen.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1E6C8BF564AD4173957FB400516C2FF0 /* Pods-MiniBrowser_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MiniBrowser_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		2275ACEECAF12710CC05C1AAED73790B /* Pods-MiniBrowser_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MiniBrowser_Example.modulemap"; sourceTree = "<group>"; };
 		29C838E70BE5640018BCBBE940E79CF1 /* Pods-MiniBrowser_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MiniBrowser_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		3100A957D2D2BF5F20E83FBA1A283194 /* Pods-MiniBrowser_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MiniBrowser_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		34900EE4E26F4992B8118694D81D3619 /* ExtendScreen.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = ExtendScreen.xcframework; sourceTree = "<group>"; };
 		3D354164A8471B233DB39AD42795A0E0 /* Pods-MiniBrowser_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MiniBrowser_Example-dummy.m"; sourceTree = "<group>"; };
-		44B34F2AF9E25E19345F6CDED80D38FA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		4DC0BB1A628918909F1400554914014A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		4E4364B523FCD76F61188275FFA027BB /* Pods-MiniBrowser_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MiniBrowser_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		5462D6C13F14E411A10797539807A88E /* Pods-MiniBrowser_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MiniBrowser_Tests-dummy.m"; sourceTree = "<group>"; };
 		547FF25F7D84AAB2E7FD0A8BD145617C /* Pods-MiniBrowser_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MiniBrowser_Tests.modulemap"; sourceTree = "<group>"; };
-		572D4004F34F11325C0044A941D0B44C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		59D7A6D5C63078A62AD7F43D36E3AC5A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		5A90FC2A4737D1D6485CA7DEF1587582 /* Pods-MiniBrowser_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MiniBrowser_Example-Info.plist"; sourceTree = "<group>"; };
+		60AF46BDAA6E13C3ACD1667E1B6714BD /* ExtendScreen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ExtendScreen.debug.xcconfig; sourceTree = "<group>"; };
 		69D9E2B59653C0F282626F8AF27BE3D5 /* Pods-MiniBrowser_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MiniBrowser_Tests-umbrella.h"; sourceTree = "<group>"; };
 		6AA646317663D6D9E92AC57D27D5047E /* Pods_MiniBrowser_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MiniBrowser_Tests.framework; path = "Pods-MiniBrowser_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		777F18002F60EFE3CC22DC2D77C06A99 /* ExtendScreen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ExtendScreen.release.xcconfig; sourceTree = "<group>"; };
 		79F24FAA1F73E7EC2FAE16D657F2D2BC /* Pods_MiniBrowser_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MiniBrowser_Example.framework; path = "Pods-MiniBrowser_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		861174F1F5DA410E55114CF58BB432A7 /* ExtendScreen-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "ExtendScreen-xcframeworks.sh"; sourceTree = "<group>"; };
 		86C9D4D3C45EA003A3F43EAAC69892C7 /* Pods-MiniBrowser_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MiniBrowser_Example-frameworks.sh"; sourceTree = "<group>"; };
 		8788CD07CC4E7CCA5B0FA2C06A1DF9ED /* Pods-MiniBrowser_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MiniBrowser_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		8AC876B7F75FEA4064174808CEA2A8BF /* Pods-MiniBrowser_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MiniBrowser_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B2BB6E5C50F16EDD8822147DE41EA4C0 /* Pods-MiniBrowser_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MiniBrowser_Example.release.xcconfig"; sourceTree = "<group>"; };
-		C9371FDA1DBB3ECA3BC17EA153BDA684 /* ExtendScreen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ExtendScreen.release.xcconfig; sourceTree = "<group>"; };
 		D9C29DDB42F2B0E8010E368E03A53DF4 /* Pods-MiniBrowser_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MiniBrowser_Tests-Info.plist"; sourceTree = "<group>"; };
-		DFB979DA75BF0C474171E549FCE529B6 /* ExtendScreen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ExtendScreen.debug.xcconfig; sourceTree = "<group>"; };
 		DFC58C61F4746222983FF91658E83CF6 /* Pods-MiniBrowser_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MiniBrowser_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E9F59D0BC03212BF3C9B66FCBB71A1CD /* ExtendScreen.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ExtendScreen.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		FCD3133599DC7A9E4247BAD12A436B03 /* ExtendScreen.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ExtendScreen.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,14 +112,15 @@
 			path = "Target Support Files/Pods-MiniBrowser_Tests";
 			sourceTree = "<group>";
 		};
-		2D6D05234723E1AB54CC1C784BD1AEEF /* Support Files */ = {
+		3698E2CAA0A6AD391649F20C27862FBC /* ExtendScreen */ = {
 			isa = PBXGroup;
 			children = (
-				DFB979DA75BF0C474171E549FCE529B6 /* ExtendScreen.debug.xcconfig */,
-				C9371FDA1DBB3ECA3BC17EA153BDA684 /* ExtendScreen.release.xcconfig */,
+				7AADA2E83A6D68BEB1BEA073C122C808 /* Frameworks */,
+				8A3C1B55F9F50EF3F45E115AF6329984 /* Pod */,
+				FFDBCA95E91E59FD21926DF4C519FF32 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ExtendScreen";
+			name = ExtendScreen;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		4FD4EF88F198C335D3E43C173757045F /* Pods-MiniBrowser_Example */ = {
@@ -135,14 +138,6 @@
 			);
 			name = "Pods-MiniBrowser_Example";
 			path = "Target Support Files/Pods-MiniBrowser_Example";
-			sourceTree = "<group>";
-		};
-		5682C092593D9B92715056E3ED4E8A39 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				FCD3133599DC7A9E4247BAD12A436B03 /* ExtendScreen.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -165,20 +160,27 @@
 		77078C386D94333BE0D41B3992CD10B7 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				7B831789F5C05BEE18B9CF470EA619BD /* ExtendScreen */,
+				3698E2CAA0A6AD391649F20C27862FBC /* ExtendScreen */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		7B831789F5C05BEE18B9CF470EA619BD /* ExtendScreen */ = {
+		7AADA2E83A6D68BEB1BEA073C122C808 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5682C092593D9B92715056E3ED4E8A39 /* Frameworks */,
-				B9695AD6E1977D097C56168F729068CF /* Pod */,
-				2D6D05234723E1AB54CC1C784BD1AEEF /* Support Files */,
+				34900EE4E26F4992B8118694D81D3619 /* ExtendScreen.xcframework */,
 			);
-			name = ExtendScreen;
-			path = ../..;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8A3C1B55F9F50EF3F45E115AF6329984 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				170E3F21555CC6F3FCA63438BF3A1F0C /* ExtendScreen.podspec */,
+				59D7A6D5C63078A62AD7F43D36E3AC5A /* LICENSE */,
+				4DC0BB1A628918909F1400554914014A /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		92A993390A14A682AA0CC80DC2FCB595 /* Targets Support Files */ = {
@@ -188,16 +190,6 @@
 				07E1C57F213CEE49FD323E20CB5B1737 /* Pods-MiniBrowser_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		B9695AD6E1977D097C56168F729068CF /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				E9F59D0BC03212BF3C9B66FCBB71A1CD /* ExtendScreen.podspec */,
-				44B34F2AF9E25E19345F6CDED80D38FA /* LICENSE */,
-				572D4004F34F11325C0044A941D0B44C /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -217,6 +209,17 @@
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FFDBCA95E91E59FD21926DF4C519FF32 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				861174F1F5DA410E55114CF58BB432A7 /* ExtendScreen-xcframeworks.sh */,
+				60AF46BDAA6E13C3ACD1667E1B6714BD /* ExtendScreen.debug.xcconfig */,
+				777F18002F60EFE3CC22DC2D77C06A99 /* ExtendScreen.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ExtendScreen";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,7 +256,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				DEAAB3D867E14D01A3EE6AE188A05C94 /* PBXTargetDependency */,
+				6B8D9371E616000C9E705C466D9D0EA3 /* PBXTargetDependency */,
 			);
 			name = "Pods-MiniBrowser_Tests";
 			productName = "Pods-MiniBrowser_Tests";
@@ -325,6 +328,27 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		AC31D9AD5EDD8C717C453E994D71EB43 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/ExtendScreen/ExtendScreen-xcframeworks.sh",
+				"${PODS_ROOT}/../../ExtendScreen.xcframework",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputPaths = (
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ExtendScreen",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/ExtendScreen/ExtendScreen-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		15977EDF6D81D34489F0219FE9A76D41 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -351,11 +375,11 @@
 			target = 091F6EB16EEEAC70F354525C348C6C78 /* ExtendScreen */;
 			targetProxy = A9B768494250506069CEFCA21267C170 /* PBXContainerItemProxy */;
 		};
-		DEAAB3D867E14D01A3EE6AE188A05C94 /* PBXTargetDependency */ = {
+		6B8D9371E616000C9E705C466D9D0EA3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-MiniBrowser_Example";
 			target = 8389610F2BAB24EA3BC78DABA8A7F1D3 /* Pods-MiniBrowser_Example */;
-			targetProxy = BF2B680CF35D67333ED0506FCFE55757 /* PBXContainerItemProxy */;
+			targetProxy = C2EFCBF501694B4A9F6531D7B9555E79 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -391,6 +415,20 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		0ECBE4B36734C492CCEA7879C7BF5951 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 777F18002F60EFE3CC22DC2D77C06A99 /* ExtendScreen.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
 		};
 		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -491,9 +529,9 @@
 			};
 			name = Release;
 		};
-		72C971E2DDC920AB0F0B500CF64D1330 /* Release */ = {
+		55CE9025482726875CF01A1A01413BAD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C9371FDA1DBB3ECA3BC17EA153BDA684 /* ExtendScreen.release.xcconfig */;
+			baseConfigurationReference = 60AF46BDAA6E13C3ACD1667E1B6714BD /* ExtendScreen.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -501,9 +539,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 			};
-			name = Release;
+			name = Debug;
 		};
 		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -566,19 +603,6 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
-		};
-		D745007946E3F919D9948945ACA377DC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DFB979DA75BF0C474171E549FCE529B6 /* ExtendScreen.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
 		};
 		F127068B3DD711AAAC74380603955C24 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -648,20 +672,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2A4A53EBF8B09209526395423F447FC1 /* Build configuration list for PBXAggregateTarget "ExtendScreen" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D745007946E3F919D9948945ACA377DC /* Debug */,
-				72C971E2DDC920AB0F0B500CF64D1330 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		38966B34A36488A79AF8303C35502E06 /* Build configuration list for PBXNativeTarget "Pods-MiniBrowser_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F127068B3DD711AAAC74380603955C24 /* Debug */,
 				4F3EBA3E76E3AF3598A699F62CB1A6A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E8DD1C41E6F04508498646394A5ED83 /* Build configuration list for PBXAggregateTarget "ExtendScreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55CE9025482726875CF01A1A01413BAD /* Debug */,
+				0ECBE4B36734C492CCEA7879C7BF5951 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
