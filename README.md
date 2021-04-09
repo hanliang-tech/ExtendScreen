@@ -90,12 +90,12 @@ action.params = @{
 **1、启动拓展屏应用**
 
 ```objective-c
-MiniAction *action = [MiniAction esAppActionnWithEsId:@"扩展屏应用的ID" esPkg:@"扩展屏应用的包名"];
+MiniAction *action = [MiniAction esAppActionWithEsId:@"扩展屏应用的ID" esPkg:@"扩展屏应用的包名"];
 [[MiniClientManager shared] sendEvent:device action: action];
 ```
 
 ```swift
-let action = MiniAction.esAppActionn(withEsId: "扩展屏应用的ID", esPkg: "扩展屏应用的包名")
+let action = MiniAction.esAppAction(withEsId: "扩展屏应用的ID", esPkg: "扩展屏应用的包名")
 MiniClientManager.shared().sendEvent(device, action: action)
 ```
 
