@@ -2,7 +2,7 @@
 
 ## 安装
 
-我们可以使用 Cocoapods 安装 MiniBrowser，Podfile 添加下面的代码，然后进行 `pod install`
+我们可以使用 Cocoapods 安装 ExtendScreen，Podfile 添加下面的代码，然后进行 `pod install`
 
 ```ruby
 pod 'ExtendScreen'
