@@ -24,11 +24,11 @@ NS_ASSUME_NONNULL_BEGIN
 /// 启动拓展屏应用
 /// @param esId 扩展屏应用的ID
 /// @param esPkg 扩展屏应用的包名
-+ (instancetype)esAppActionWithEsId: (NSString *)esId esPkg: (NSString*) esPkg;
++ (instancetype)esAppActionWithEsId: (nonnull NSString *)esId esPkg: (nonnull NSString *) esPkg params: (nullable id)params;
 
 /// 启动原生应用
 /// @param params 业务params，字符串或者字典
-+ (instancetype)nativeAppActionWithParams: (id)params;
++ (instancetype)nativeAppActionWithParams: (nonnull id)params;
 
 
 /// 互发消息
